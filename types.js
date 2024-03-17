@@ -1,3 +1,28 @@
+/** Mermaid
+---
+title: JavaScript Types
+---
+classDiagram
+    NonPrimitives <|-- SpecialObjects
+    class Primitives {
+        string
+        number
+        boolean
+        null
+        undefined
+        symbol
+        BigInt
+    }
+    class NonPrimitives {
+        Object
+    }
+    class SpecialObjects {
+        Array
+        Function
+    }
+    note for SpecialObjects "functions and array are subtypes of the object type"
+ */
+
 /** JavaScript types
  * undefined
  * string
