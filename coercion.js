@@ -162,3 +162,13 @@ if (user == 1) { ... };
 {
 }
 +[]; // 0?? hint: {} here is just an empty block, so the engine ignores it
+
+/** Unary plus operator
+ * It turns a string to a number e.g. +"10" = 10 using .toNumber abstract operation
+ */
+
+/** Boxing
+ * It's what allows "abc".length / "abc".toUpperCase()
+ * It's an implicit coercion that turns primitive into objects
+ * to allow accessing properties/methods on that string
+ */
