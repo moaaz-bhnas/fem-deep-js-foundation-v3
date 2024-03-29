@@ -15,7 +15,13 @@ console.log(anotherAnime); // reference error "source reference for undeclared v
  * "anotherAnime" is readonly. You can't re-assign it
  */
 
-/**
- * Named vs anonymous function expressions
- * 100% favor the named
+/** Named vs anonymous function expressions
+ * 100% favor the named. Why?
+ * 1. reliable self reference from inside the function (for recurcion, fn.length, etc)
+ * 2. More debuggable stack trace
+ * 3. More self-documenting code
+ */
+
+/** Arrow function
+ * Anonymous too
  */
