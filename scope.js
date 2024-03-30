@@ -9,8 +9,8 @@
  * It runs some processes on the code before executing it top to bottom
  * For example, if you have a syntax error in line 7, line 1 of the program won't run
  * Before running the program,
- * JavaScript compiler creates "buckets" when it encounters units of scope (function / block)
- * And creates "marbles" whenever it encouters variables and drop them in the correct bucket
+ * JavaScript compiler creates enviroment record "buckets" when it encounters units of scope (function / block) (lexical environment)
+ * And creates identifiers "marbles" whenever it encouters variables and drop them in the correct bucket
  * Except, it doesn't actually create the buckets in the memory. It just creates a plan for the bucket that activates
  * when a bucket is executed
  * In a lexically-scoped language (JS), all scopes/identifiers are determined at compile time, and used at run time
