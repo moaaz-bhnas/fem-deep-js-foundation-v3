@@ -8,5 +8,5 @@
  */
 
 /**
- * A "constructor call" makes an object linked to it's own prototype
+ * A "constructor call" (ia new) makes an object linked to it's own prototype
  */
