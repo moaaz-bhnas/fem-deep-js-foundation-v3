@@ -60,3 +60,7 @@ for (let i = 0; i <= 3; i++) {
     console.log(j);
   }, 10);
 }
+
+/** Note
+ * Closure protects an execution context from being garbage collected after it's finished
+ */
